@@ -1,0 +1,24 @@
+<li>
+  <% if note.user.followed_by? current_user %>
+    <%= link_to "フォロー解除", user_relationships_path(note.user), method: :delete %>
+  <% else %>
+    <%= link_to "フォロー", user_relationships_path(note.user), method: :post %>
+  <% end %>
+</li>
+<li> 
+  <%= image_for(note.user) %>
+  <span class="user-name">
+    <%= note.user.name %>
+  </span>
+  <span class="content">
+    <%= link_to note.title, note_path(note.id) %>
+  </span>
+  <span>
+    <%= note.created_at.strftime("%Y-%m-%d %H:%M:%S") %>
+  </span>
+  <div>
+      <small>
+        <%= note.likes.count %>人がいいね！といっています
+      </small>
+  </div>
+</li>

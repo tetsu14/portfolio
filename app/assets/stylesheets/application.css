@@ -1,0 +1,246 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ body{
+ 	font-family: 'Shadows Into Light', cursive;
+ }
+
+.main{
+	background-color: black;
+	height: 60px;
+	}
+
+.title{
+	font-size: 50px;
+	width: 20%;
+}
+.main-li{
+	font-size: 25px;
+	margin-top: 5px;
+}
+.user_show{
+	width: 100%;
+	height: 600px;
+	margin-top: 70px;
+}
+
+li{
+	list-style: none;
+}
+.user_index{
+	width: 30%;
+	float: left;
+	margin-top: 70px;
+	border-bottom-style: dotted;
+}
+.user{
+	width: 60%;
+	float: left;
+
+}
+.user_li{
+	font-size: 20px;
+	float: left;
+}
+.index-li{
+	float: left;
+	font-size: 20px;
+	width: 100px;
+}
+.index{
+	float: left;
+	font-size: 20px;
+	margin-top:25px;
+	margin-left: 50px;
+}
+.profile{
+	width: 200px;
+	border-radius: 100%;
+    height: 200px;
+}
+
+
+/* 新規ユーザー作成フォーム ================================ */
+.name-field, .email-field {
+  width: 45%;
+}
+
+/* ユーザー一覧 ================================ */
+.add-user-btn {
+  background-color: #239b76;
+  margin-top: 16px;
+  float: right
+}
+
+.add-user-btn:hover {
+  background-color: #28b086;
+  color: white;
+  text-decoration: none;
+}
+
+.user-list li {
+  overflow: auto;
+  padding: 10px 0;
+  margin-left: 5%;
+  border-bottom: 1px solid #eaeaea;
+
+}
+.user-list{
+	width: 80%;
+	margin: auto;
+}
+
+.user-list img {
+  display: inline-block;
+  padding: 5px 0;
+  margin-right: 2%;
+  float: left;
+  width: 56px;
+}
+
+.user-list a {
+  display: inline-block;
+  margin-top: 22px;
+}
+
+
+/* ユーザーのshowページ ================================ */
+.sidebar { 
+  width: 34%;
+  float: left;
+  margin-bottom: 30px;
+  margin-right: 10%;
+}
+
+.label {
+  color: #C0C0C2;
+}
+
+.user-info {
+  margin: 10px 0 30px 0;
+}
+
+.user-info .profile_img {
+  width: 140px;
+  height: 140px;
+}
+
+/* ユーザー共通 ================================ */
+.profile_img {
+  width: 52px;
+  height: 52px;
+}
+
+.notes {
+  margin: 0;
+  float: left;
+  width: 50%;
+}
+.notes h2 {
+  margin-top: 0;
+}
+.notes li {
+  overflow: auto;
+  padding: 14px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+
+/* 投稿 ================================ */
+.notes .title, .notes .content {
+  display: block;
+}
+
+.notes .title {
+  padding-top: 8px;
+}
+
+.notes img {
+  display: inline-block;
+  margin-right: 6%;
+  margin-bottom: 6%;
+  float: left;
+  width:56px;
+  height:56px;
+}
+
+.show-note li {
+  padding: 30px 40px;
+  background-color: #DEE6EA;
+  border-radius: 5px;
+}
+
+.show-note .title, .show-note .content {
+  display: block;
+}
+
+.show-note .title {
+  padding-top: 8px;
+}
+.show-note img {
+  display: inline-block;
+  margin-right: 5px;
+  float: left;
+  width:70px;
+  height:70px;
+  margin-right: 6%;
+  margin-bottom: 6%;
+}
+
+/* 投稿フォーム ================================ */
+
+.user-id-field {
+  width: 100%;
+}
+.title-field{
+  width: 97.2%;
+}
+.content-field {
+  height: 90px;
+  width: 97.2%;
+}
+.new{
+	width: 60%;
+	margin:auto;
+	margin-top: 70px;
+}
+.new-font{
+
+	margin: auto;
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+.font{
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.btn{margin-top: 15px;
+     float: right;
+     width: 80px;}
+
+.note-show{
+	width: 60%;
+	margin: auto;
+}
+.iine{
+  margin-left: 50px;
+  width: 20%;
+}
+
+.body-image{
+  width: 100%;
+  height: 700px;
+ background-size: 
+}
